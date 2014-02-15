@@ -1,0 +1,33 @@
+body {
+    color: #333;
+    background-color: #ddd;
+    margin: 1em;
+    text-align: center;
+}
+
+a {
+    color: #c60;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#imagegallery {
+    width: 800px;
+    list-style: none;
+    padding; 0;
+    margin: 1em 0;
+}
+
+#imagegallery li {
+    display: inline;
+}
+
+#imagegallery li a img {
+    border: 0;
+    vertical-align: top;
+}
+
+#placeholder {
+    padding: 5px;
+}
